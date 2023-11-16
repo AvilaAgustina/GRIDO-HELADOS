@@ -1,0 +1,134 @@
+body{
+	background-image: url("helado fndo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	color: black;
+}
+.BOTONESROJOS{
+	color: white;
+}
+.animated-title{
+	animation: animateTitle 1s infinite;
+}
+	@keyframes animateTitle {
+    0% {
+        transform: scale(1); /* Tamaño original */
+    }
+    50% {
+        transform: scale(1.2); /* Tamaño ligeramente más grande */
+    }
+    100% {
+        transform: scale(1); /* Volver al tamaño original */
+    }
+}
+h1{
+	text-align: center;
+	color: yellow;
+	background: blue;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100px ;
+	border: 7px solid yellow;
+	padding: 20px
+}
+h3{
+	text-align: center;
+	font-size: 80px; 
+}
+	
+ h2{
+ 	font-family: Helvetica, Arial, sans-serif;
+ 	font-size: italic;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	font-weight: bold;
+ 	color: black;
+ 	background-color: white;
+ 	letter-spacing: 3px;
+ 	word-spacing: 10px;
+ 	background-blend-mode:300px;
+ 	width: 50%;
+    margin: 2% auto;
+    border: 7px solid #d63384e8;
+
+ } 
+
+ h4{
+ 	text-align: center;
+ }
+
+ul{
+	text-align: center;
+	font-size: 30px;
+	list-style-type: none;
+	font-weight: bold;
+	
+}
+ol{
+	text-align: center;
+	font-size: 30px;
+	list-style-type: none;
+	font-weight: bold;
+}
+p{
+	text-align: center;
+ 	font-weight: bold;
+ 	color: black;
+ 	word-spacing: 10px;
+ 	background-blend-mode:300px;
+}
+
+a{
+	font-size: 35px;
+}	
+h5{
+	text-align: center;
+	font-size: 30px;
+	list-style-type: none;
+	font-weight: bold;
+}
+
+#ma{
+	text-align: center;
+	margin: auto;
+}
+
+#frutilla{
+	text-align: center;
+	margin: auto;
+}
+#menta{
+	text-align: center;
+	margin: auto;
+}
+#yam{
+	text-align: center;
+	margin: auto;
+}
+#vainilla{
+	text-align: center;
+	margin: auto;
+}
+li{
+	text-align: center;
+	margin: auto;
+	background-color: #FFCDD2 ;
+	background-blend-mode:300px;
+}
+#tablita{
+    padding: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer{
+	text-align: center;
+	color: #d63384e8;
+	background-color: pink;
+	font-size: 30px;
+    font-weight:bold;
+     border: solid #d63384e8;
+     background-color: white;
+ 	padding-right: 50px;
+ 	padding-left: 50px;
+}
+

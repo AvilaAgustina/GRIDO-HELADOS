@@ -1,0 +1,52 @@
+.BOTONESROJOS{
+	color: white;
+}
+
+.video{
+	margin: 0 auto;
+	width: 60%
+}
+
+.animated-title{
+	animation: animateTitle 1s infinite;
+}
+	@keyframes animateTitle {
+    0% {
+        transform: scale(1); /* Tamaño original */
+    }
+    50% {
+        transform: scale(1.2); /* Tamaño ligeramente más grande */
+    }
+    100% {
+        transform: scale(1); /* Volver al tamaño original */
+    }
+}
+h1{
+	text-align: center;
+	color: yellow;
+	background: blue;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100px ;
+	border: 7px solid yellow;
+	padding: 20px
+}
+
+h2{
+	font-family: Helvetica, Arial;
+	text-align: center;
+	color:black;
+	background-color: white;
+	font-size: 60px;
+	width: 50%;
+    margin: 2% auto;
+    border: 7px solid #0d6efdde;
+}
+
+h3{
+	font-family: Helvetica, Arial;
+	text-align: center;
+	color:black;
+	background-color: white;
+	border: 7px solid #adb5bd;
+}
